@@ -2,8 +2,8 @@ name: air-quality-daily
 
 on:
   workflow_dispatch:
-    schedule:
-      - cron: '0 0,12 * * *'  # Runs at 00:00 (midnight) and 12:00 (noon) UTC every day
+  schedule:
+    - cron: '30 1,13 * * *'  # Runs at 00:00 (midnight) and 12:00 (noon) UTC every day
 
 
 jobs:
